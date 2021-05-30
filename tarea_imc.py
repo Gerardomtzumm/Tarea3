@@ -1,0 +1,5 @@
+print("\n Hola, vamos a calcular tu masa Corporal\n")
+peso=(float(input("¿Ingresa tu peso en kg?\n")))
+estatura=(float(input("¿Ingresa tu estatura en metros?\n")))
+imc= peso/(estatura**2)
+print("Tu indice de masa corporal es:",imc)
